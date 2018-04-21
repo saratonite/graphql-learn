@@ -2,6 +2,9 @@ const graphql = require('graphql')
 
 const { GraphQLObjectType, GraphQLString, GraphQLSchema, GraphQLID, GraphQLInt, GraphQLList } = graphql;
 
+// Models 
+
+const Book = require('../models/book');
 
 // dummy Data 
 
